@@ -6,6 +6,5 @@ export default async function fetchData(callback : Function) {
 
   if(!jsonAPI) return;
   const json = jsonAPI.map(transacao => normalizarTransacao(transacao));
-  console.log(json);
   callback(json);
 }

@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  #estatisticas {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #estatisticas h2 {
+    padding-top: 1rem;
+  }
+
+  #dados {
+    margin-left: calc((100vw - 300px) / 2);
+    margin-right: 0;
+    padding-bottom: 2rem;
+  }
+  
+  .table-container {
+    padding-right: calc((100vw - 300px) / 2);
+    max-width: calc(100vw - (100vw - 300px) / 2);
+    overflow-x: auto;
+  }
+}
